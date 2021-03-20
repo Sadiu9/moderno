@@ -1,0 +1,22 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+.box{
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: violet;
+}
+
+.box{
+    display: flex;
+}
